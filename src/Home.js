@@ -1,12 +1,7 @@
-import React from 'react'
-
-function home() {
-  return <div className="home">Hello</div>;
 import React from "react";
 import "./Home.css";
 import ProductList from "./component/ProductList";
 import Sidebar from "./component/SideBar";
-import Footer from "./component/footer";
 
 function Home() {
   return (
@@ -22,11 +17,8 @@ function Home() {
           </div>
         </>
       </div>
-      <div className="home_footer">
-        <Footer />
-      </div>
     </div>
   );
 }
 
-export default home
+export default Home;
